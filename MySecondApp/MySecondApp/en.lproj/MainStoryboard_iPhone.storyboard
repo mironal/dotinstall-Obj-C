@@ -14,7 +14,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K5p-6p-Eal">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Screen1">
+                                <state key="normal" title="text">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -25,11 +25,56 @@
                                     <segue destination="uKa-NM-VNX" kind="push" id="Nnb-Gd-dUv"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="466-xV-OTJ">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="more text">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="chr-pA-7WG" kind="push" id="9sk-XZ-rMW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IAs-v3-z3L">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="image">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="uKQ-41-tod" kind="push" id="E8s-J4-mdd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZnT-DE-ViM">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="map">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="mLC-KO-Z21" kind="push" id="p1s-m3-Dzt"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="K5p-6p-Eal" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="109" id="G0Y-UN-xcz"/>
-                            <constraint firstAttribute="bottom" secondItem="K5p-6p-Eal" secondAttribute="bottom" constant="115" id="cV2-6i-jCm"/>
+                            <constraint firstItem="K5p-6p-Eal" firstAttribute="top" secondItem="3" secondAttribute="top" constant="72" id="BCT-yo-A9I"/>
+                            <constraint firstItem="ZnT-DE-ViM" firstAttribute="leading" secondItem="IAs-v3-z3L" secondAttribute="leading" type="default" id="BUB-eI-YPY"/>
+                            <constraint firstItem="466-xV-OTJ" firstAttribute="top" secondItem="3" secondAttribute="top" constant="162" id="EaG-oE-DXh"/>
+                            <constraint firstItem="ZnT-DE-ViM" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="Gdw-6e-iZQ"/>
+                            <constraint firstAttribute="bottom" secondItem="ZnT-DE-ViM" secondAttribute="bottom" constant="95" id="MvW-hp-Hsb"/>
+                            <constraint firstAttribute="bottom" secondItem="IAs-v3-z3L" secondAttribute="bottom" constant="207" id="XVD-Ki-2nh"/>
+                            <constraint firstItem="466-xV-OTJ" firstAttribute="centerX" secondItem="K5p-6p-Eal" secondAttribute="centerX" type="default" id="c3s-fb-xEF"/>
+                            <constraint firstItem="IAs-v3-z3L" firstAttribute="leading" secondItem="466-xV-OTJ" secondAttribute="leading" type="default" id="vMw-M9-i6l"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Main" id="ddp-ob-LCC"/>
@@ -38,20 +83,153 @@
             </objects>
             <point key="canvasLocation" x="1044" y="79"/>
         </scene>
-        <!--View Controller - Screen1-->
+        <!--View Controller - more text-->
+        <scene sceneID="iN1-5a-XHu">
+            <objects>
+                <viewController id="chr-pA-7WG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gOm-FL-Hid">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yZU-Ry-LSj">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yZU-Ry-LSj" firstAttribute="bottom" secondItem="gOm-FL-Hid" secondAttribute="bottom" type="default" id="CTb-rt-gt7"/>
+                            <constraint firstItem="yZU-Ry-LSj" firstAttribute="trailing" secondItem="gOm-FL-Hid" secondAttribute="trailing" type="default" id="VAW-fO-XPg"/>
+                            <constraint firstItem="yZU-Ry-LSj" firstAttribute="leading" secondItem="gOm-FL-Hid" secondAttribute="leading" type="default" id="b5J-dW-VAV"/>
+                            <constraint firstItem="yZU-Ry-LSj" firstAttribute="top" secondItem="gOm-FL-Hid" secondAttribute="top" type="default" id="bzu-RA-1YC"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="more text" id="EDe-v8-jvH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RP3-k6-AbF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1480" y="-589"/>
+        </scene>
+        <!--View Controller - text-->
         <scene sceneID="iUJ-ax-gOf">
             <objects>
                 <viewController id="uKa-NM-VNX" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rEF-jy-HGm">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EHw-9Z-jvP">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="EHw-9Z-jvP" secondAttribute="bottom" constant="165" id="WAc-eD-iZG"/>
+                            <constraint firstAttribute="trailing" secondItem="EHw-9Z-jvP" secondAttribute="trailing" constant="28" id="ZU4-HU-O9F"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Screen1" id="fcX-zt-D2e"/>
+                    <navigationItem key="navigationItem" title="text" id="fcX-zt-D2e"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZMX-wf-71T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1479" y="79"/>
+        </scene>
+        <!--View Controller - image-->
+        <scene sceneID="8ZN-wY-vta">
+            <objects>
+                <viewController id="uKQ-41-tod" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yEb-DC-CpZ">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3HV-bV-6wb">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="more image">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="DIT-0V-tEx" kind="push" id="RNt-90-peq"/>
+                                </connections>
+                            </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="tether00574-2012-08-15.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kjw-fv-Hfj">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="466" id="vpp-eo-PbJ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kjw-fv-Hfj" firstAttribute="top" secondItem="yEb-DC-CpZ" secondAttribute="top" type="default" id="9Xk-Xp-2MC"/>
+                            <constraint firstItem="3HV-bV-6wb" firstAttribute="trailing" secondItem="yEb-DC-CpZ" secondAttribute="trailing" type="default" id="Sx1-F8-att"/>
+                            <constraint firstItem="kjw-fv-Hfj" firstAttribute="leading" secondItem="yEb-DC-CpZ" secondAttribute="leading" type="default" id="WL8-ji-7EV"/>
+                            <constraint firstItem="3HV-bV-6wb" firstAttribute="bottom" secondItem="yEb-DC-CpZ" secondAttribute="bottom" type="default" id="uM5-B0-Fjg"/>
+                            <constraint firstItem="kjw-fv-Hfj" firstAttribute="trailing" secondItem="yEb-DC-CpZ" secondAttribute="trailing" type="default" id="xxJ-pd-90g"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="image" id="orP-dm-UOx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AbA-66-xsk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1480" y="750"/>
+        </scene>
+        <!--View Controller - more image-->
+        <scene sceneID="gQd-7i-Me1">
+            <objects>
+                <viewController id="DIT-0V-tEx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zd2-Oe-kBf">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="tether01134-2012-10-03.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="23k-gQ-H5R">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="637" id="Iz4-J2-VZY"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="23k-gQ-H5R" firstAttribute="top" secondItem="Zd2-Oe-kBf" secondAttribute="top" constant="-128" id="QDL-BN-Mc4"/>
+                            <constraint firstItem="23k-gQ-H5R" firstAttribute="leading" secondItem="Zd2-Oe-kBf" secondAttribute="leading" type="default" id="eLi-db-f2t"/>
+                            <constraint firstItem="23k-gQ-H5R" firstAttribute="trailing" secondItem="Zd2-Oe-kBf" secondAttribute="trailing" type="default" id="ez9-eg-hw4"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="more image" id="jLZ-YS-2Tv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gX7-V5-Xvt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1878" y="750"/>
+        </scene>
+        <!--View Controller - map-->
+        <scene sceneID="iEK-js-JnV">
+            <objects>
+                <viewController id="mLC-KO-Z21" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tN0-kR-f3c">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ORj-wy-hYe"/>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ORj-wy-hYe" firstAttribute="bottom" secondItem="tN0-kR-f3c" secondAttribute="bottom" type="default" id="mgf-LJ-BDO"/>
+                            <constraint firstItem="ORj-wy-hYe" firstAttribute="leading" secondItem="tN0-kR-f3c" secondAttribute="leading" type="default" id="szi-Mt-g50"/>
+                            <constraint firstItem="ORj-wy-hYe" firstAttribute="top" secondItem="tN0-kR-f3c" secondAttribute="top" type="default" id="t7C-Ey-u9u"/>
+                            <constraint firstItem="ORj-wy-hYe" firstAttribute="trailing" secondItem="tN0-kR-f3c" secondAttribute="trailing" type="default" id="u61-9G-TML"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="map" id="3Yh-gP-Y2H"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nMG-JT-xuu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1044" y="750"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="AUk-uT-aXE">
@@ -72,6 +250,10 @@
             <point key="canvasLocation" x="481" y="79"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="tether00574-2012-08-15.jpg" width="534" height="800"/>
+        <image name="tether01134-2012-10-03.jpg" width="534" height="800"/>
+    </resources>
     <classes>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>

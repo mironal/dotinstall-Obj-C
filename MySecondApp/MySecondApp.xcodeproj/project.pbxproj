@@ -19,6 +19,10 @@
 		4EBA11AA1621390000EA0758 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EBA11A81621390000EA0758 /* MainStoryboard_iPhone.storyboard */; };
 		4EBA11AD1621390000EA0758 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EBA11AB1621390000EA0758 /* MainStoryboard_iPad.storyboard */; };
 		4EBA11B01621390000EA0758 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA11AF1621390000EA0758 /* ViewController.m */; };
+		4EBA11BC1621720000EA0758 /* tether00574-2012-08-15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4EBA11BA1621720000EA0758 /* tether00574-2012-08-15.jpg */; };
+		4EBA11BD1621720000EA0758 /* tether01134-2012-10-03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4EBA11BB1621720000EA0758 /* tether01134-2012-10-03.jpg */; };
+		4EBA11BF1621742D00EA0758 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EBA11BE1621742D00EA0758 /* MapKit.framework */; };
+		4EBA11C11621744600EA0758 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EBA11C01621744600EA0758 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,10 @@
 		4EBA11AC1621390000EA0758 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		4EBA11AE1621390000EA0758 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4EBA11AF1621390000EA0758 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4EBA11BA1621720000EA0758 /* tether00574-2012-08-15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tether00574-2012-08-15.jpg"; sourceTree = "<group>"; };
+		4EBA11BB1621720000EA0758 /* tether01134-2012-10-03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tether01134-2012-10-03.jpg"; sourceTree = "<group>"; };
+		4EBA11BE1621742D00EA0758 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4EBA11C01621744600EA0758 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EBA11C11621744600EA0758 /* CoreLocation.framework in Frameworks */,
+				4EBA11BF1621742D00EA0758 /* MapKit.framework in Frameworks */,
 				4EBA11911621390000EA0758 /* UIKit.framework in Frameworks */,
 				4EBA11931621390000EA0758 /* Foundation.framework in Frameworks */,
 				4EBA11951621390000EA0758 /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +85,8 @@
 		4EBA118F1621390000EA0758 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4EBA11BE1621742D00EA0758 /* MapKit.framework */,
+				4EBA11C01621744600EA0758 /* CoreLocation.framework */,
 				4EBA11901621390000EA0758 /* UIKit.framework */,
 				4EBA11921621390000EA0758 /* Foundation.framework */,
 				4EBA11941621390000EA0758 /* CoreGraphics.framework */,
@@ -85,6 +97,8 @@
 		4EBA11961621390000EA0758 /* MySecondApp */ = {
 			isa = PBXGroup;
 			children = (
+				4EBA11BA1621720000EA0758 /* tether00574-2012-08-15.jpg */,
+				4EBA11BB1621720000EA0758 /* tether01134-2012-10-03.jpg */,
 				4EBA119F1621390000EA0758 /* AppDelegate.h */,
 				4EBA11A01621390000EA0758 /* AppDelegate.m */,
 				4EBA11A81621390000EA0758 /* MainStoryboard_iPhone.storyboard */,
@@ -167,6 +181,8 @@
 				4EBA11A71621390000EA0758 /* Default-568h@2x.png in Resources */,
 				4EBA11AA1621390000EA0758 /* MainStoryboard_iPhone.storyboard in Resources */,
 				4EBA11AD1621390000EA0758 /* MainStoryboard_iPad.storyboard in Resources */,
+				4EBA11BC1621720000EA0758 /* tether00574-2012-08-15.jpg in Resources */,
+				4EBA11BD1621720000EA0758 /* tether01134-2012-10-03.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
