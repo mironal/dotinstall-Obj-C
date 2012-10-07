@@ -17,10 +17,31 @@
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NbY-ai-wTV">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="hoge">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iTL-Kf-4pG">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="hS7-K6-yfv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="iTL-Kf-4pG" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="44" id="VsX-Or-Mwq"/>
                             <constraint firstItem="RBJ-u5-kkH" firstAttribute="top" secondItem="3" secondAttribute="top" constant="195" id="WsN-0n-f1V"/>
+                            <constraint firstItem="iTL-Kf-4pG" firstAttribute="top" secondItem="3" secondAttribute="top" constant="28" id="X7i-Mz-kfG"/>
+                            <constraint firstItem="NbY-ai-wTV" firstAttribute="top" secondItem="3" secondAttribute="top" constant="106" id="hNI-Gz-oMn"/>
+                            <constraint firstItem="NbY-ai-wTV" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="92" id="qPt-ee-yWo"/>
                             <constraint firstItem="RBJ-u5-kkH" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="yMz-Fa-KSP"/>
                         </constraints>
                     </view>
