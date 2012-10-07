@@ -27,6 +27,10 @@
 }
 
 - (IBAction)buttonPush:(id)sender {
-    self.labelText.text = @"Pushed me";
+    //self.labelText.text = @"Pushed me";
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    NSDate *now = [NSDate date];
+    [formatter setDateFormat:@"HH:mm:ss"];
+    self.labelText.text = [formatter stringFromDate:now];
 }
 @end
