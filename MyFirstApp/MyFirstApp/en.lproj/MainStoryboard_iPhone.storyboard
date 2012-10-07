@@ -14,14 +14,14 @@
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Hello World" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RBJ-u5-kkH">
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="RBJ-u5-kkH" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="112" id="IwL-Cm-dQg"/>
                             <constraint firstItem="RBJ-u5-kkH" firstAttribute="top" secondItem="3" secondAttribute="top" constant="195" id="WsN-0n-f1V"/>
+                            <constraint firstItem="RBJ-u5-kkH" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="yMz-Fa-KSP"/>
                         </constraints>
                     </view>
                 </viewController>
