@@ -22,7 +22,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="oWg-c8-78C" kind="modal" id="N7K-Ff-MAD"/>
+                                    <segue destination="oWg-c8-78C" kind="modal" modalTransitionStyle="coverVertical" id="N7K-Ff-MAD"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -54,7 +54,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="2" kind="modal" id="s2t-9z-UhI"/>
+                                    <segue destination="2" kind="modal" modalTransitionStyle="crossDissolve" id="s2t-9z-UhI"/>
                                 </connections>
                             </button>
                         </subviews>
